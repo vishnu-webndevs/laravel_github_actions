@@ -41,6 +41,9 @@ jobs:
 
       - name: Run Unit Tests
         run: php artisan test
+        
+      - name: Install Node.js dependencies
+        run: npm install
     
       - name: Build Project
         run: npm run build
