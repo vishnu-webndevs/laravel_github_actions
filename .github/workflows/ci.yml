@@ -79,7 +79,7 @@ jobs:
           port: ${{ secrets.FTP_PORT }}
           protocol: ftp
           local-dir: ./
-          server-dir: /home1/ronmrhmy/public_html/action-totan-in/
+          server-dir: ./
           exclude: |
             **/.git*
             **/.github*
