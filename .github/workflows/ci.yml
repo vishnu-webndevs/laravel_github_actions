@@ -41,6 +41,9 @@ jobs:
 
       - name: Run Unit Tests
         run: php artisan test
+    
+      - name: Build Project
+        run: npm run build
 
   deploy:
     runs-on: ubuntu-latest
