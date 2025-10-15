@@ -4,7 +4,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "lint": "php -l $(find app -type f -name '*.php')"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
