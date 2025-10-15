@@ -44,7 +44,7 @@ jobs:
         run: composer lint || echo "Linting skipped (define lint in composer.json if needed)"
 
       - name: Run Unit Tests
-        run: php artisan test --parallel --env=testing
+        run: php artisan test
 
       - name: Build Frontend (optional)
         run: |
